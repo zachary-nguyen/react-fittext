@@ -27,6 +27,7 @@ class FitText extends React.Component {
       fontSize: defaultFontSize,
     }
 
+    console.log(defaultFontSize)
     this._onBodyResize = this._onBodyResize.bind(this)
     this._parentNode = null
   }
